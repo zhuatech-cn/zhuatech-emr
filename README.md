@@ -60,3 +60,7 @@ docker compose up --build
 </p>
 
 关键词：知华科技 EMR、电子病历系统、病案管理、病历质控、医疗信息化、Java EMR、Spring Boot 医疗系统、上海软件定制。
+
+## 用药安全门禁
+
+新增 `POST /api/emr/insights/medication-safety`，综合过敏匹配、药物相互作用、重复治疗、肾功能剂量调整和入院用药核对，返回 `CLEAR`、`REVIEW` 或 `BLOCK` 及可解释风险提示。
