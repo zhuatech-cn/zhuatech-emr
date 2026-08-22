@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.emr;
 import cn.zhuatech.emr.service.MedicationSafetyService; import org.junit.jupiter.api.Test; import static org.junit.jupiter.api.Assertions.*;
 class MedicationSafetyServiceTests {private final MedicationSafetyService service=new MedicationSafetyService();
