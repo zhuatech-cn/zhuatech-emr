@@ -64,3 +64,7 @@ docker compose up --build
 ## 用药安全门禁
 
 新增 `POST /api/emr/insights/medication-safety`，综合过敏匹配、药物相互作用、重复治疗、肾功能剂量调整和入院用药核对，返回 `CLEAR`、`REVIEW` 或 `BLOCK` 及可解释风险提示。
+
+## 企业级电子病历定稿
+
+新增 `POST /api/enterprise/emr/clinical-record-finalization`，覆盖完整性、电子签名、诊断编码、同意、危急结果、隐私与更正审计，返回 `FINALIZE / QUERY / BLOCKED`。详见 [病历定稿说明](docs/ENTERPRISE_RECORD_FINALIZATION.md)。
